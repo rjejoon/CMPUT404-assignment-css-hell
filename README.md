@@ -30,6 +30,11 @@ After:
 </figure>
 ```
 
+2. Added css stylesheet to each gutenberg HTML files.
+```html
+<link rel="stylesheet" href="./theme.css">
+```
+
 License/Copyright
 =================
 
