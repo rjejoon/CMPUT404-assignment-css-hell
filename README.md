@@ -12,6 +12,24 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Part I
+=================
+**Modifications**
+
+1. In line 95 of *3.html*, added an image caption.
+
+Before:
+```html
+<img src="images/cover.jpg" style="width:100%;" alt="cover" />
+```
+After: 
+```html
+<figure>
+    <img src="images/cover.jpg" style="width:100%;" alt="cover" />
+    <figcaption>Book Cover</figcaption>
+</figure>
+```
+
 License/Copyright
 =================
 
