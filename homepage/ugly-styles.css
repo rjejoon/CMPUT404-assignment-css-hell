@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!--
+/*
 Attribution-ShareAlike 4.0 International 2022 Jejoon Ryu
 
 =======================================================================
@@ -430,171 +427,279 @@ licenses.
 
 Creative Commons may be contacted at creativecommons.org.
   -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jejoon Ryu</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Lora&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./good-styles.css">
-</head>
-<body>
-  <header>
-    <span class="site-title">Jejoon Ryu's Website</span>
-    <nav class="header-links-container">
-      <a href="#about" class="header-link">About</a>
-      <a href="#history" class="header-link">History</a>
-      <a href="#skills" class="header-link">Skills</a>
-      <a href="#footer-contact" class="header-link">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <div id="about">
-      <img src="images/my-face.png" alt="My face">
-      <div class="heading-para-div">
-        <h1>About Me</h1>
-        <p>I am a third-year computer science student at the University of Alberta. My focus is on creating an innovative website that can reach out to many people worldwide.</p>
-      </div>
-    </div>
-    <div id="history">
-      <div>
-        <h1>History</h1>
-        <p>On February 20, 2000, I was born in Seoul, South Korea. I mostly stayed in my grandparent's house as my parents were busy finishing their PhDs and work.</p>
-        <p>During my lifetime, I have lived across multiple countries. When I was five years old, our family moved to Osaka, Japan, and lived there for three and a half years due to my father's job. In this period, I was capable of speaking two languages. I spoke Korean at home and Japanese in kindergarten. However, I now only use Korean and have forgotten most Japanese.</p>
-        <p>Before I started attending primary school at the age of eight, we moved back to Seoul, South Korea, because my parents wanted me to focus mainly on Korean. They wanted me not to get confused about who I really am. We lived there until I finished the first semester of grade 4. At this time, I mainly studied English alongside schoolwork.</p>
-        <p>For the rest of my grade four, I stayed away from my family and lived in a foreign country. My mom wanted me to experience different cultures and get fluent in English. Therefore, my parents sent me to Canada for six months to attend Regina Christian school, located in Regina, Saskatchewan. There were also other Koreans at my age living with Korean families. However, I was taken care of by a Canadian family I had never met. It was the most terrifying yet the best experience I have ever had.</p>
-        <p>I came back to my family at the start of grade 5, but now my parents wanted to immigrate to the same city where I studied internationally in Canada. They determined to keep me away from South Korea because of its hellish school life. My parents thought I would have suffered severe depression had I stayed here.</p>
-        <p>At the start of the second semester of grade 7, our family successfully immigrated to Regina, Saskatchewan. I was thrilled as I got to reunite with my old friends. Furthermore, every subject was less challenging than before. Therefore, my free time naturally increased a lot, and thanks to that, I got a lot of time to consider what I would do in the future. I was mainly choosing between becoming a doctor or a software engineer. In the end, I decided to become a software engineer because it fits perfectly with my personality. And, finally, I am here looking for a job.</p>
-      </div>
-      <img src="images/rcs.png" alt="Logo of Regina Christian School">
-    </div>
-    <div id="skills">
-      <h1>Skills</h1>
-      <h2>Programming Languages</h2>
-      <div class="logo-container">
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/python-logo.png" alt="Logo of Python" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">python</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/c-logo.png" alt="Logo of C Language" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">c</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/javascript-logo.png" alt="Logo of javascript" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">javascript</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/java-logo.png" alt="Logo of Java" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">java</span>
-        </div>
-      </div>
-      <h2>Frameworks</h2>
-      <div class="logo-container">
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/django-logo.png" alt="Logo of django" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">django</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/react-logo.png" alt="Logo of React" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">react</span>
-        </div>
-      </div>
-      <h2>Miscellaneous</h2>
-      <div class="logo-container">
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/git-logo.png" alt="Logo of Git" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">git</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/github-logo.png" alt="Logo of GitHub" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">github</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/webpack-logo.png" alt="Logo of Webpack" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">webpack</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/android-logo.png" alt="Logo of Android" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">android</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/mysql-logo.png" alt="Logo of MySQL" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">mysql</span>
-        </div>
-        <div class="logo">
-          <div class="logo-img">
-            <img src="images/mongodb-logo.png" alt="Logo of MongoDB" class="skill-logo-img">
-          </div>
-          <span class="skill-logo-span">mongodb</span>
-        </div>
-      </div>
-    </div>
-  </main>
-  <aside>
-    <span class="sidebar-header">Important</span>
-    <span class="sidebar-header">Points</span>
-    <span class="sidebar-point">Computer Science student at U of A</span>
-    <span class="sidebar-point">I'm currently seeking for a full-stack web development job!</span>
-    <span class="sidebar-point">My GitHub Profile:</span>
-      <a href="https://github.com/rjejoon/" class="github-icon sidebar-point">
-        <img src="images/github-black-logo.png" alt="Black GitHub Logo">
-      </a>
-    </div>
+*/
 
-  </aside>
-  <footer id="footer-contact">
-    <div class="contact-grid">
-      <div class="line-left"></div>
-      <span class="contact-span">Contact</span>
-      <div class="line-right"></div>
-      <div class="message-prompt">
-        <span>Leave a message to me</span>
-        <form action="" class="message-prompt-form">
-          <label>
-            <input type="text" name="name" placeholder="Name">
-          </label>
-          <label>
-            <input type="email" name="email" placeholder="E-mail">
-          </label>
-          <label>
-            <input type="text" name="message" placeholder="Message">
-          </label>
-          <input type="submit" value="Send">
-        </form>
-      </div>
-      <div class="contact-info">
-        <span>You can also write me an email to:</span>
-        <span id="my-email">rjejoon@gmail.com</span>
-        <span>or visit my GitHub:</span>
-        <a href="https://github.com/rjejoon/" class="github-icon">
-          <img src="images/github-white-logo.png" alt="White GitHub Logo">
-        </a>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-areas: "header header"
+                       "content sidebar"
+                       "footer footer";
+  grid-template-rows: 300px minmax(75vh, auto) 500px;
+  grid-template-columns: 1fr minmax(280px, 15vw);
+
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+header {
+  grid-area: header;
+  background: linear-gradient(180deg, #000000 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: url("images/doge.png");
+  background-repeat: repeat-x;
+}
+
+main {
+  grid-area: content;
+  height: 100%;
+  padding: 1rem;
+  background: blue;
+  color: white;
+}
+
+aside {
+  grid-area: sidebar;
+  background: orange;
+  padding: 1rem;
+}
+
+footer {
+  grid-area: footer;
+  background: blue;
+}
+
+.title-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 16px;
+}
+
+#first-my-face-img {
+  transform: rotate(-45deg);
+}
+
+#second-my-face-img {
+  transform: rotate(45deg);
+}
+
+.site-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+
+  font-family: 'Shizuru', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+
+  color: #FF0000;
+}
+
+.header-links-container {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  background: cyan;
+
+  position: relative;
+  bottom: 20%;
+}
+
+.header-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: red;
+  margin-left: 24px;
+}
+
+.header-link:link { text-decoration: none; }
+
+.header-link:visited { text-decoration: none; }
+
+.header-link:hover { text-decoration: none; }
+
+.header-link:active { text-decoration: none; }
+
+h1 { 
+  font-size: 2.25rem;
+  font-weight: normal;
+  margin: 2rem 0 0 0;
+  padding: 0;
+  color: red;
+}
+
+h2 { 
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin: 2rem 0 0 0;
+  padding: 0;
+}
+
+p { 
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+img { 
+  max-height: 100%;
+  width: auto;
+  height: 200px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  color: red;
+}
+
+#history {
+  display: flex;
+  align-items: center;
+  color: yellow;
+}
+
+#skills {
+  display: block;
+}
+
+.logo-container {
+  display: flex;
+  margin-top: 24px;
+  flex-flow: row wrap;
+  border: 3px solid cyan;
+  padding: 24px;
+}
+
+.logo {
+  width: 70px;
+  height: 100px;
+  margin-top: 10px;
+  margin-right: 16px;
+
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #DBDBDB;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-transition: all 0.1s 0s ease;
+  -moz-transition: all 0.1s 0s ease;
+  -o-transition: all 0.1s 0s ease;
+  transition: all 0.1s 0s ease;
+}
+
+.skill-logo-img {
+  height: auto;
+  width: auto;
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.skill-logo-span {
+  display: inline-block;
+  font-size: 0.85rem;
+  width: 100%;
+  text-align: center;
+  visibility: hidden;
+
+  position: relative;
+  bottom: 20px;
+
+}
+
+.logo-img:hover { 
+  transform: translateY(-20px);
+}
+
+.logo:hover > .skill-logo-span {
+  visibility: visible;
+}
+
+.contact-grid {
+  height: 100%;
+
+  color: #ff00d4;
+}
+
+.contact-span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 3rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+.contact-info > span {
+  display: block;
+  font-size: 1.3rem;
+
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#my-email {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.github-icon {
+  text-align: center;
+}
+
+.github-icon > img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.sidebar-header {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: bold;
+
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar-point {
+  display: block;
+  margin-top: 2rem;
+  text-align: center;
+}

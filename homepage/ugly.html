@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--
+    <!--
 Attribution-ShareAlike 4.0 International 2022 Jejoon Ryu
 
 =======================================================================
@@ -436,12 +436,16 @@ Creative Commons may be contacted at creativecommons.org.
   <title>Jejoon Ryu</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Lora&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./good-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Pen+Script&family=Shizuru&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./ugly-styles.css">
 </head>
 <body>
   <header>
-    <span class="site-title">Jejoon Ryu's Website</span>
+    <div class="title-container">
+      <img id="first-my-face-img" src="images/my-face.png" alt="My face">
+      <span class="site-title">Jejoon Ryu's Website</span>
+      <img id="second-my-face-img" src="images/my-face.png" alt="My face">
+    </div>
     <nav class="header-links-container">
       <a href="#about" class="header-link">About</a>
       <a href="#history" class="header-link">History</a>
@@ -451,15 +455,12 @@ Creative Commons may be contacted at creativecommons.org.
   </header>
   <main>
     <div id="about">
-      <img src="images/my-face.png" alt="My face">
       <div class="heading-para-div">
-        <h1>About Me</h1>
         <p>I am a third-year computer science student at the University of Alberta. My focus is on creating an innovative website that can reach out to many people worldwide.</p>
       </div>
     </div>
     <div id="history">
       <div>
-        <h1>History</h1>
         <p>On February 20, 2000, I was born in Seoul, South Korea. I mostly stayed in my grandparent's house as my parents were busy finishing their PhDs and work.</p>
         <p>During my lifetime, I have lived across multiple countries. When I was five years old, our family moved to Osaka, Japan, and lived there for three and a half years due to my father's job. In this period, I was capable of speaking two languages. I spoke Korean at home and Japanese in kindergarten. However, I now only use Korean and have forgotten most Japanese.</p>
         <p>Before I started attending primary school at the age of eight, we moved back to Seoul, South Korea, because my parents wanted me to focus mainly on Korean. They wanted me not to get confused about who I really am. We lived there until I finished the first semester of grade 4. At this time, I mainly studied English alongside schoolwork.</p>
@@ -467,11 +468,8 @@ Creative Commons may be contacted at creativecommons.org.
         <p>I came back to my family at the start of grade 5, but now my parents wanted to immigrate to the same city where I studied internationally in Canada. They determined to keep me away from South Korea because of its hellish school life. My parents thought I would have suffered severe depression had I stayed here.</p>
         <p>At the start of the second semester of grade 7, our family successfully immigrated to Regina, Saskatchewan. I was thrilled as I got to reunite with my old friends. Furthermore, every subject was less challenging than before. Therefore, my free time naturally increased a lot, and thanks to that, I got a lot of time to consider what I would do in the future. I was mainly choosing between becoming a doctor or a software engineer. In the end, I decided to become a software engineer because it fits perfectly with my personality. And, finally, I am here looking for a job.</p>
       </div>
-      <img src="images/rcs.png" alt="Logo of Regina Christian School">
     </div>
     <div id="skills">
-      <h1>Skills</h1>
-      <h2>Programming Languages</h2>
       <div class="logo-container">
         <div class="logo">
           <div class="logo-img">
@@ -497,9 +495,6 @@ Creative Commons may be contacted at creativecommons.org.
           </div>
           <span class="skill-logo-span">java</span>
         </div>
-      </div>
-      <h2>Frameworks</h2>
-      <div class="logo-container">
         <div class="logo">
           <div class="logo-img">
             <img src="images/django-logo.png" alt="Logo of django" class="skill-logo-img">
@@ -512,9 +507,6 @@ Creative Commons may be contacted at creativecommons.org.
           </div>
           <span class="skill-logo-span">react</span>
         </div>
-      </div>
-      <h2>Miscellaneous</h2>
-      <div class="logo-container">
         <div class="logo">
           <div class="logo-img">
             <img src="images/git-logo.png" alt="Logo of Git" class="skill-logo-img">
@@ -555,10 +547,9 @@ Creative Commons may be contacted at creativecommons.org.
     </div>
   </main>
   <aside>
-    <span class="sidebar-header">Important</span>
-    <span class="sidebar-header">Points</span>
+    <span class="sidebar-header">Important!!!</span>
     <span class="sidebar-point">Computer Science student at U of A</span>
-    <span class="sidebar-point">I'm currently seeking for a full-stack web development job!</span>
+    <span class="sidebar-point">Looking for a full-stack web development job!!!</span>
     <span class="sidebar-point">My GitHub Profile:</span>
       <a href="https://github.com/rjejoon/" class="github-icon sidebar-point">
         <img src="images/github-black-logo.png" alt="Black GitHub Logo">
@@ -568,26 +559,9 @@ Creative Commons may be contacted at creativecommons.org.
   </aside>
   <footer id="footer-contact">
     <div class="contact-grid">
-      <div class="line-left"></div>
-      <span class="contact-span">Contact</span>
-      <div class="line-right"></div>
-      <div class="message-prompt">
-        <span>Leave a message to me</span>
-        <form action="" class="message-prompt-form">
-          <label>
-            <input type="text" name="name" placeholder="Name">
-          </label>
-          <label>
-            <input type="email" name="email" placeholder="E-mail">
-          </label>
-          <label>
-            <input type="text" name="message" placeholder="Message">
-          </label>
-          <input type="submit" value="Send">
-        </form>
-      </div>
+      <span class="contact-span">Contact Me</span>
       <div class="contact-info">
-        <span>You can also write me an email to:</span>
+        <span>Write me an email to:</span>
         <span id="my-email">rjejoon@gmail.com</span>
         <span>or visit my GitHub:</span>
         <a href="https://github.com/rjejoon/" class="github-icon">
